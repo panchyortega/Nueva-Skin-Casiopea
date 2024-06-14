@@ -1,8 +1,137 @@
-// Variables
-// En este lugar debo colocar las variables que están en Figma con los nombres correspondientes
-//Space: Aquí van las variables de tamaños, que luego se utilizarán para otras cosas
 
-body{
 
-    color:red;
-}
+// Definición de variables de tamaños
+
+@space-0: 0;
+@space-1: 4px;
+@space-2: 8px;
+@space-3: 12px;
+@space-4: 16px;
+@space-5: 20px;
+@space-6: 24px;
+@space-7: 28px;
+@space-8: 32px;
+@space-9: 36px;
+@space-10: 40px;
+@space-11: 44px;
+@space-12: 48px;
+@space-13: 56px;
+@space-14: 60px;
+@space-15: 64px;
+@space-16: 68px;
+@space-17: 80px;
+@space-18: 96px;
+
+
+// Variables de tipografías para estilos de párrafo
+
+@font-heading: 'Raleway';
+@font-title: 'Raleway';
+@font-body: 'Raleway';
+@font-caption: 'Raleway';
+@font-code: 'IBM Plex Mono';
+@font-tags: 'Raleway';
+
+
+// Variables de tamaño de textos
+
+@size-text-heading-lg: @space-12;         // Tamaño 48px
+@size-text-heading-md: @space-9;          // Tamaño 36px
+@size-text-heading-sm: @space-7;          // Tamaño 28px
+
+@size-text-h1: @space-8;        // Tamaño 32px
+@size-text-h2: @space-7;        // Tamaño 28px
+@size-text-h3: @space-6;        // Tamaño 24px
+@size-text-h4: @space-5;        // Tamaño 20px
+@size-text-h5: @space-4;        // Tamaño 16px
+
+@size-text-body-lg: @space-5;   // Tamaño 20px
+@size-text-body-md: @space-4;   // Tamaño 16px
+@size-text-body-sm: @space-3;   // Tamaño 12px
+
+@size-text-caption: @space-3;   // Tamaño 12px
+
+@size-text-code: @space-4;      // Tamaño 16px
+
+@size-text-tags: @space-4;      // Tamaño 16px
+
+
+
+
+/* Estilos de párrafo para distintas categorías de texto */
+
+/* Encabezados */
+h1, .h1 {
+    font-family: @font-heading;
+    font-size: @size-text-h1;
+    font-weight: bold;
+  }
+  
+  h2, .h2 {
+    font-family: @font-heading;
+    font-size: @size-text-h2;
+    font-weight: bold;
+  }
+  
+  h3, .h3 {
+    font-family: @font-heading;
+    font-size: @size-text-h3;
+    font-weight: bold;
+  }
+  
+  h4, .h4 {
+    font-family: @font-heading;
+    font-size: @size-text-h4;
+    font-weight: bold;
+  }
+  
+  h5, .h5 {
+    font-family: @font-heading;
+    font-size: @size-text-h5;
+    font-weight: bold;
+  }
+  
+  /* Títulos */
+  .heading {
+    font-family: @heading;
+    font-size: @size-text-h2; /* Puedes ajustar según el diseño */
+    font-weight: bold;
+  }
+  
+  /* Cuerpo de texto */
+  .body {
+    font-family: @body-font;
+    font-size: @size-text-body-md;
+    line-height: 1.6; /* Ajusta según necesites */
+  }
+  
+  .body-lg {
+    font-size: @size-text-body-lg;
+  }
+  
+  .body-sm {
+    font-size: @size-text-body-sm;
+  }
+  
+  /* Leyendas */
+  .caption {
+    font-size: @size-text-caption;
+    font-style: italic;
+  }
+  
+  /* Código */
+  .code {
+    font-family: @code-font;
+    font-size: @size-text-code;
+    background-color: #f0f0f0; /* Ejemplo de estilo de fondo para código */
+    padding: @space-1; /* Utilizando la variable de espacio para padding */
+    border-radius: 4px;
+  }
+  
+  /* Fichas */
+  .tab {
+    font-size: @size-text-tags;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
