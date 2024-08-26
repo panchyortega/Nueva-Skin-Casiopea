@@ -1,110 +1,159 @@
-
-
 // Definición de variables de tamaños
 
 @space-0: 0;
-@space-1: 4px;
-@space-2: 8px;
-@space-3: 12px;
-@space-4: 16px;
-@space-5: 20px;
-@space-6: 24px;
-@space-7: 28px;
-@space-8: 32px;
-@space-9: 36px;
-@space-10: 40px;
-@space-11: 44px;
-@space-12: 48px;
-@space-13: 56px;
-@space-14: 60px;
-@space-15: 64px;
-@space-16: 68px;
-@space-17: 80px;
-@space-18: 96px;
+@space-1: 2px;
+@space-2: 4px;
+@space-3: 8px;
+@space-4: 12px;
+@space-5: 16px;
+@space-6: 20px;
+@space-7: 24px;
+@space-8: 28px;
+@space-9: 32px;
+@space-10: 36px;
+@space-11: 40px;
+@space-12: 44px;
+@space-13: 48px;
+@space-14: 56px;
+@space-15: 60px;
+@space-16: 64px;
+@space-17: 68px;
+@space-18: 80px;
+@space-19: 96px;
+
+
+// Definición de variables de colores
+
+// Color Surface: Colores de superficies, background, stroke, colores de texto, etc.
+@col-surf-50: #F6F5F5;
+@col-surf-100: #EDECEA;
+@col-surf-200: #DCD9D6;
+@col-surf-300: #C5BEB7;
+@col-surf-400: #B2ACA4;
+@col-surf-500: #959089;
+@col-surf-600: #7C7872;
+@col-surf-700: #53504C;
+@col-surf-800: #373633;
+@col-surf-900: #2D2B29;
+
+// Color Primario: Color primario de Casiopea, para botones, links, títulos, etc.
+@col-prim-50: #F6EAE8;
+@col-prim-100: #EED6D1;
+@col-prim-200: #D4998B;
+@col-prim-300: #B1472E;
+@col-prim-400: #A83217;
+@col-prim-500: #972D15;
+@col-prim-600: #7E2611;
+@col-prim-700: #54190C;
+@col-prim-800: #2A0D06;
+@col-prim-900: #170101;
+
+// Color Succes: Para notificar al usuario de acciones exitosas
+@col-succes-50: #F6FEFB;
+@col-succes-100: #1BC590;
+@col-succes-200: #12825F;
+@col-succes-300: #0E674B;
+@col-succes-400: #0A4834;
+
+// Color Warning: Para alertar al usuario
+@col-warning-50: #FFFDFA;
+@col-warning-100: #F9DBB5;
+@col-warning-200: #F2AB53;
+@col-warning-300: #EE9322;
+@col-warning-400: #A6620D;
+
+// Color Danger: Para notificar al usuario de acciones incompletas o errores
+@col-danger-50: #FBEAEA;
+@col-danger-100: #E16B6B;
+@col-danger-200: #C92929;
+@col-danger-300: #A92323;
+@col-danger-400: #6E1717;
 
 
 // Variables de tipografías para estilos de párrafo
 
-@font-heading: 'Raleway';
-@font-title: 'Raleway';
-@font-body: 'Raleway';
-@font-caption: 'Raleway';
+@font-heading: 'Noto Sans';
+@font-title: 'Noto Serif';
+@font-body: 'Noto Serif';
+@font-caption: 'Noto Serif';
 @font-code: 'IBM Plex Mono';
-@font-tags: 'Raleway';
+@font-sans: 'Noto Sans';
 
 
 // Variables de tamaño de textos
 
-@size-text-heading-lg: @space-12;         // Tamaño 48px
-@size-text-heading-md: @space-9;          // Tamaño 36px
-@size-text-heading-sm: @space-7;          // Tamaño 28px
+@size-text-heading-lg: @space-13;         // Tamaño 48px
+@size-text-heading-md: @space-10;          // Tamaño 36px
+@size-text-heading-sm: @space-8;          // Tamaño 28px
 
-@size-text-h1: @space-8;        // Tamaño 32px
-@size-text-h2: @space-7;        // Tamaño 28px
-@size-text-h3: @space-6;        // Tamaño 24px
-@size-text-h4: @space-5;        // Tamaño 20px
-@size-text-h5: @space-4;        // Tamaño 16px
+@size-text-h1: 32.4px;        // Tamaño 32px
+@size-text-h2: 28.8px;        // Tamaño 28px
+@size-text-h3: 25.6px;        // Tamaño 24px
+@size-text-h4: 22.8px;        // Tamaño 20px
+@size-text-h5: 20.3px;        // Tamaño 16px
 
-@size-text-body-lg: @space-5;   // Tamaño 20px
-@size-text-body-md: @space-4;   // Tamaño 16px
-@size-text-body-sm: @space-3;   // Tamaño 12px
+@size-text-body-lg: 18px;   // Tamaño 20px
+@size-text-body-md: 16px;   // Tamaño 16px
+@size-text-body-sm: 14.2px;   // Tamaño 12px
 
-@size-text-caption: @space-3;   // Tamaño 12px
+@size-text-caption: 12.6px;   // Tamaño 12px
 
-@size-text-code: @space-4;      // Tamaño 16px
+@size-text-code: 16px;      // Tamaño 16px
 
-@size-text-tags: @space-4;      // Tamaño 16px
+@size-text-nav: 16px;
 
+@size-text-ficha-titulo: 16px;
+@size-text-ficha-body: 16px;
 
+@size-text-sans-sm: 14.2px;
+@size-text-sans-md: 16px;
+@size-text-sans-lg: 18px;
 
 
 /* Estilos de párrafo para distintas categorías de texto */
 
+.cont {       /* Contenido */
+
 /* Encabezados */
-h1, .h1 {
+
+  h1 {
     font-family: @font-heading;
     font-size: @size-text-h1;
     font-weight: bold;
   }
   
-  h2, .h2 {
+  h2 {
     font-family: @font-heading;
     font-size: @size-text-h2;
     font-weight: bold;
   }
   
-  h3, .h3 {
+  h3 {
     font-family: @font-heading;
     font-size: @size-text-h3;
     font-weight: bold;
   }
   
-  h4, .h4 {
+  h4 {
     font-family: @font-heading;
     font-size: @size-text-h4;
     font-weight: bold;
   }
   
-  h5, .h5 {
+  h5 {
     font-family: @font-heading;
     font-size: @size-text-h5;
     font-weight: bold;
   }
-  
-  /* Títulos */
-  .heading {
-    font-family: @heading;
-    font-size: @size-text-h2; /* Puedes ajustar según el diseño */
-    font-weight: bold;
-  }
-  
-  /* Cuerpo de texto */
-  .body {
+
+  /* Body */
+
+  body {
     font-family: @body-font;
     font-size: @size-text-body-md;
     line-height: 1.6; /* Ajusta según necesites */
   }
-  
+   
   .body-lg {
     font-size: @size-text-body-lg;
   }
@@ -112,14 +161,12 @@ h1, .h1 {
   .body-sm {
     font-size: @size-text-body-sm;
   }
-  
-  /* Leyendas */
+
   .caption {
     font-size: @size-text-caption;
     font-style: italic;
   }
-  
-  /* Código */
+
   .code {
     font-family: @code-font;
     font-size: @size-text-code;
@@ -129,9 +176,43 @@ h1, .h1 {
   }
   
   /* Fichas */
-  .tab {
-    font-size: @size-text-tags;
-    font-weight: bold;
+
+  .ficha-titulo {
+    font-size: @size-text-ficha-titulo;
+    font-weight: medium;
     text-transform: uppercase;
   }
+  
+  .ficha-body {
+    font-size: @size-text-ficha-body;
+    font-weight: regular;
+    text-transform: uppercase;
+  }
+
+
+}
+
+
+.nav{       /* Barra de navegación */
+
+  body {
+    font-family: @font-sans;
+    font-size: @size-text-nav;
+    line-height: 1.6;
+  }
+
+}
+
+
+.tabla{       /* Tabla de contenidos */
+
+  body {
+    font-family: @font-sans;
+    font-size: @size-text-sans-md;
+    line-height: 1.6; /* Ajusta según necesites */
+  }
+
+
+}
+  
   
